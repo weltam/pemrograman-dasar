@@ -17,9 +17,9 @@ Pada pemrograman, umumnya tipe data floating point dihindari karena kurang akura
 
 ## char / karakter
 
-ASCII, kode ASCII
-
-char to int
+Merupakan tipe data untuk merepresentasikan karakter menurut ASCII (American Standard Code for Information Interchange).
+- Dalam ASCII, terdapat 128 karakter yang direpresentasikan dengan angka dari 0 sampai 127.
+- Misalnya, kode ASCII untuk karakter spasi (’ ’) adalah 32, huruf ’A’ adalah 65, ’B’ adalah 66, huruf ’a’ adalah 97, dan huruf ’b’ adalah 98.
 
 ## string
 
