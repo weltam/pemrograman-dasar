@@ -48,4 +48,24 @@ print(teks)
 ```
 
 - Perhatikan bahwa perintah p2 = p1 sama artinya dengan p2 = 100, karena p1 sendiri mengacu pada nilai 100.
-• Untuk tipe data floating point, bilangan tercetak dalam notasi scientific, yaitu `3.1418 × 100` dan `2.34432 × 102`.
+- Untuk tipe data floating point, bilangan tercetak dalam notasi scientific, yaitu `3.1418 × 100` dan `2.34432 × 102`.
+
+# tipe data komposit
+
+- Kadang-kadang, kita membutuhkan suatu tipe data yang sifatnya komposit; terdiri dari beberapa data lainnya.
+- Contoh kasusnya adalah ketika kita butuh suatu representasi dari titik. Setiap titik pada bidang memiliki dua komponen, yaitu x dan y.
+-  Memang bisa saja kita mendeklarasi dua variabel, yaitu x dan y. Namun bagaimana jika kita hendak membuat beberapa titik? Apakah kita harus membuat x1, y1, x2, y2, ...? Sungguh melelahkan!
+- Karena itulah Pascal memiliki suatu tipe data komposit, yaitu class.
+
+```py
+class Titik:
+    def __init__(self):
+        self.x = 0
+        self.y = 0
+
+p = Titik()
+p.x = 5
+p.y = 7
+
+print(p.x, p.y)
+```
