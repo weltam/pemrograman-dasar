@@ -13,7 +13,7 @@ himpunan dari nilai dan himpunan dari operator terhadap nilai/data
 
 ## float / riil / floating point
 
-kurang akurat,
+Pada pemrograman, umumnya tipe data floating point dihindari karena kurang akurat. Representasi `3` pada floating point bisa jadi `2.99999999999999` atau `3.000000000000001` karena keterbatasan pada struktur penyimpanan bilangan pecahan pada komputer.
 
 ## char / karakter
 
