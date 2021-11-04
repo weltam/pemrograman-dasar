@@ -46,3 +46,6 @@ print(y)
 teks = 'ini adalah string'
 print(teks)
 ```
+
+- Perhatikan bahwa perintah p2 = p1 sama artinya dengan p2 = 100, karena p1 sendiri mengacu pada nilai 100.
+• Untuk tipe data floating point, bilangan tercetak dalam notasi scientific, yaitu `3.1418 × 100` dan `2.34432 × 102`.
