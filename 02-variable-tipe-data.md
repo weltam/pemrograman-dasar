@@ -29,3 +29,20 @@ untaian karakter
 
 true or false
 
+# contoh program
+
+```py
+p1 = 100
+p2 = p1
+
+print(p1, p2)
+
+x = 3.1418
+y = 234.432
+
+print(x)
+print(y)
+
+teks = 'ini adalah string'
+print(teks)
+```
