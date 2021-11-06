@@ -70,13 +70,15 @@ Semenjak panduan ini dipublikasikan pertama kalinya pada tahun 2016, salah satu 
 
 Kenapa? Karena SCIP mempunyai keunikan dalam mengubah paradigma fundamental tentang komputasi dan pemrograman. Tidak semua akan berpikir hal yang sama tentang ini. Beberapa orang tidak menyukai buku ini, ada juga yang tidak bisa menyelesaikan halaman pertama. Tapi potensi keuntungan yang didapat membuatnya sangat sangat layak dicoba. 
 
-Se non ti piace SICP, prova *Composing Programs*. Se ancora non ti soddisfa, prova *[How to Design Programs](http://www.htdp.org/)*. Se nessuno di questi sembra premiare il tuo sforzo, forse è un segno che dovresti concentrarti su altri argomenti per un po' di tempo e rivedere la disciplina della programmazione tra un anno o due.
+Jika anda tidak menykai SCIP,cobalah *Composing Programs*. Jika tidak cocok juga, cobalah *[How to Design Programs](http://www.htdp.org/)*. Jika semuanya tetap tidak begitu bermanfaat menurut anda, mungkin ini pertanda anda harus fokus mempelajari topik lain untuk sementara, dan mencoba kembali konten ini dalam waktu setahun atau dua tahun berikutnya.
 
-Infine, una precisazione: questa guida NON è pensata per chi è completamente alle prime armi con la programmazione. Partiamo dal presupposto che tu sia un programmatore competente senza un background in Informatica, che cerca di colmare alcune lacune nelle conoscenze. Il fatto che abbiamo incluso una sezione sulla "programmazione" è semplicemente un promemoria che potrebbe esserci altro da imparare. Per coloro che non hanno mai programmato prima, ma che lo vorrebbero, potresti preferire una guida come [questa](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started).
+Akhirnya, perlu ditekankan: panduan ini TIDAK di buat untuk orang yang sama sekali baru terhadap dunia pemrograman. Kami beranggapan bahwa anda adalah programmer yang kompeten tanpa latar belakang informatika, tetapi ingin memperkuat dasar dan fundamental. Kami menyertakan bagian programming menandakan bahwa masih banyak lagi yang dapat dipelajari. Untuk orang yang masih belum pernah programming, tapi ingin belajar, kamu mungkin lebih cocok panduan [ini](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started).
 
 [![Structure and Interpretation of Computer Programs](https://teachyourselfcs.com/sicp.jpg)](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)
 
-### Architettura del Computer
+### Arsitektur Komputer
+
+Arsitektur Komputer
 
 L'architettura del computer—a volte chiamata "sistemi informatici" o "organizzazione computazionale"—è un importante primo sguardo all'informatica sotto la superficie del software. Nella nostra esperienza, è l'area più trascurata tra gli ingegneri del software autodidatti.
 
