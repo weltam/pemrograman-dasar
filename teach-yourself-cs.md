@@ -1,7 +1,7 @@
 Teach Yourself Computer Science
 =======================
 
-> Artikel ini adalah terjemahan bahasa indonesia dari [TeachYourselfCS](https://teachyourselfcs.com),ditulis oleh [Ozan Onay](https://twitter.com/oznova_) dan [Myles Byrne](https://twitter.com/quackingduck).
+> Artikel ini adalah terjemahan bahasa indonesia dari [TeachYourselfCS](https://teachyourselfcs.com), ditulis oleh [Ozan Onay](https://twitter.com/oznova_) dan [Myles Byrne](https://twitter.com/quackingduck).
 
 Note: Panduan ini dirombak pada bulan Mei 2020. Untuk versi sebelumnya dapat dilihat di [sini](https://teachyourselfcs.com/2016/).
 
@@ -22,40 +22,45 @@ Pelajari keseluruhan 9 bidang berikut, secara berurutan, dengan menggunakan text
 
 | Topik | Kenapa penting? | Buku | Video |
 | --- | --- | --- | --- |
-| **[Programming](#programming)** | Jangan sampai anda menjadi orang yang tidak paham dengan konsep rekursif | *Structure and Interpretation of Computer Programs* | Berkeley CS 61A di Brian Harvey |
-| **[Architettura del Computer](#architettura-del-computer)** | Se non hai un modello mentale solido di come funziona effettivamente un computer, tutte le tue astrazioni di livello superiore saranno fragili. | *Computer Systems: A Programmer's Perspective* | Berkeley CS 61C |
-| **[Algoritmi e Strutture Dati](#algoritmi-e-strutture-dati)** | Se non sai come utilizzare strutture dati onnipresenti come stack, code, alberi e grafi, non sarai in grado di risolvere problemi complessi. | *The Algorithm Design Manual* | Le lezioni di Steven Skiena |
-| **[Matematica per l'Informatica](#matematica-per-linformatica)** | Informatica è fondamentalmente una branca della matematica applicata, quindi l'apprendimento della matematica ti darà un vantaggio competitivo. | *Mathematics for Computer Science* | MIT 6.042J di Tom Leighton |
-| **[Sistemi Operativi](#sistemi-operativi)** | La maggior parte del codice che scrivi è eseguito da un sistema operativo, quindi dovresti sapere come interagiscono. | *Operating Systems: Three Easy Pieces* | Berkeley CS 162 |
-| **[Reti di Computer](#reti-di-computer)** | Internet si è rivelato un grosso problema: capire come funziona per sbloccare tutto il suo potenziale. | *Computer Networking: A Top-Down Approach* | Stanford CS 144 |
-| **[Database](#database)** | I dati sono al centro dei programmi più significativi, ma pochi capiscono come funzionano effettivamente i sistemi di database. | *Readings in Database Systems* | Berkeley CS 186 di Joe Hellerstein |
-| **[Linguaggi e Compilatori](#linguaggi-e-compilatori)** | Se capisci come funzionano effettivamente i linguaggi e i compilatori, scriverai codice migliore e imparerai nuovi linguaggi più facilmente. | *Crafting Interpreters* | Il corso di Alex Aiken su edX |
-| **[Sistemi Distribuiti](#sistemi-distribuiti)** | Al giorno d'oggi, *la maggior parte* dei sistemi sono sistemi distribuiti. | *Designing Data-Intensive Applications* di Martin Kleppmann | MIT 6.824 |
+| **[Pemrograman](#pemrograman)** | Jangan sampai anda menjadi orang yang tidak paham dengan konsep rekursif | *Structure and Interpretation of Computer Programs* | Berkeley CS 61A di Brian Harvey |
+| **[Arsitektur Komputer](#arsitektur-komputer)** | Jika anda tidak paham mengenai bagaimana komputer sebenarnya bekerja, abstraksi tingkat tinggi yang anda punyai tidak mendalam atau kokoh. | *Computer Systems: A Programmer's Perspective* | Berkeley CS 61C |
+| **[Algoritma dan Struktur Data](#algoritma-dan-struktur-data)** | Jika anda tidak mengetahui struktur data standar seperti tumpukan, antrian, pohon, dan graf, anda tidak akan bisa menyelesaikan masalah yang lebih menantang. | *The Algorithm Design Manual* | Le lezioni di Steven Skiena |
+| **[Matematika Informatika](#matematika-informatika)** | Informatika pada dasarnya merupakan cabang dari ilmu matematika aplikatif, sehingga dengan mempelajari matematika anda akan mendapatkan keuntungan yang kompetitif. | *Mathematics for Computer Science* | MIT 6.042J di Tom Leighton |
+| **[Sistem Operasi](#sistem-operasi)** | Mayoritas kode yang kita tulis akan dijalankan oleh sistem operasi, sehingga anda harus tahu bagaimana interaksinya. | *Operating Systems: Three Easy Pieces* | Berkeley CS 162 |
+| **[Jarigan Komputer](#jaringan-komputer)** | Internet merupakan hal yang sangat signifikan, pelajari cara kerjanya untuk maksimalkan potensinya. | *Computer Networking: A Top-Down Approach* | Stanford CS 144 |
+| **[Basis Data](#basis-data)** | Data adalah bagian utama dari program yang cukup signifikan tapi hanya sedikit yang paham mengenai bagaimana sebenarnya cara kerja basis data tersebut. | *Readings in Database Systems* | Berkeley CS 186 di Joe Hellerstein |
+| **[Bahasa dan Kompilator](#bahasa-kompilator)** | Jika anda mengetahui bagaimana bahasa pemrograman dan cara kompiler bekerja, maka anda dapat menulis kode yang lebih baik dan mudah mempelajari bahasa baru. | *Crafting Interpreters* | Il corso di Alex Aiken su edX |
+| **[Sistem Terdistribusi](#sistem-terdistribusi)** | Semua sistem pada jaman sekarang merupakan sistem terdistribusi. | *Designing Data-Intensive Applications* di Martin Kleppmann | MIT 6.824 |
 
-Ancora troppo?
+Terlalu banyak?
 --------------
 
-Se l'idea di studiare da solo 9 argomenti in più anni ti sembra travolgente, ti suggeriamo di concentrarti su due soli libri: *Computer Systems: A Programmer 's Perspective* e *Designing Data-Intensive Applications*. Nella nostra esperienza, questi due libri forniscono un ritorno incredibilmente elevato sul tempo investito, in particolare per ingegneri autodidatti e diplomati in un bootcamp che lavorano su applicazioni in rete. Possono anche fungere da "trampolino di lancio" per gli altri argomenti e risorse sopra elencati.
+Jika menurut anda mempelajari 9 topik selama beberapa tahun cukup mengerikan, kami sarankan untuk fokus hanya kedua buku berikut.
 
-Perché imparare l'informatica?
+1. Computer Systems: A Programmer's Perspective
+2. Designing Data-Intensive Application
+
+Menurut pengalaman kami, dua buku tersebut memberikan keuntungan yang cukup tinggi dibandingkan dengan waktu yang digunakan, terutama untuk engineer yang otodidak dan lulusan bootcamp dan pelatihan yang bekerja pada aplikasi terdistribusi. Buku ini akan menjadi pintu masuk untuk topik lain yang telah dibuat di atas. 
+
+Mengapa belajar informatika?
 ------------------------------
 
-Esistono 2 tipi di ingegneri del software: quelli che comprendono l'informatica abbastanza bene da svolgere un lavoro stimolante e innovativo e quelli che se la cavano semplicemente perché hanno familiarità con alcuni strumenti di alto livello.
+Ada 2 tipe software engineer: engineer yang mengerti informatika sehingga dapat menyelesaikan masalah yang menantang, membuat inovasi dan programmer yang hanya bisa bekerja karena bisa menggunakan tools atau framework high level dalam bahasa atau platform tertentu. 
 
-Entrambi si definiscono ingegneri del software ed entrambi tendono a guadagnare stipendi simili nelle loro prime carriere. Ma gli ingegneri di tipo 1 progrediscono verso un lavoro più appagante e ben remunerato nel tempo, che si tratti di lavoro commerciale prezioso o progetti open source innovativi, leadership tecnica o contributi individuali di alta qualità.
+Keduanya mengaku software engineer, dan keduanya cenderung mempunyai gaji yang sama pada awal karir. Tapi engineer tipe 1 akan mengarah ke karir yang tingkatan nya lebih tinggi dan gaji yang lebih tinggi seiring berjalan nya waktu, apakah dalam sektor software untuk komersial atau project open source, technical leader atau high-quality individual contributor. 
 
-Gli ingegneri di tipo 1 trovano modi per apprendere in profondità l'informatica, sia attraverso mezzi convenzionali che imparando incessantemente nel corso della loro carriera. Gli ingegneri di tipo 2 in genere rimangono in superficie, apprendendo strumenti e tecnologie specifici piuttosto che le loro basi sottostanti, acquisendo nuove competenze solo quando cambiano le mode tecnlogiche.
+Tipe 1 engineers akan memepelajari informatika dengan dalam, apakah dari kuliah atau bangku pendidikan formal atau dengan belajar tanpa henti sepanjang karirnya. Tipe 2 engineers biasanya hanya akan berhenti di level dasar, mempelajari tools dan teknologi yang spesifik tanpa ingin belajar fundamental, fondasi dan konsep yang mendasarinya. Hanya ingin mempelajari skill baru ketika teknologi baru datang atau trend berubah. 
 
-Attualmente, il numero di persone che entrano nel settore è in rapido aumento, mentre il numero di laureati in Informatica è relativamente fisso. Questo eccesso di offerta di ingegneri di tipo 2 sta iniziando a ridurre le loro opportunità di lavoro e a tenerli fuori dal lavoro più appagante del settore. Sia che tu stia cercando di diventare un ingegnere di tipo 1 o semplicemente cercando una maggiore sicurezza sul lavoro, l'apprendimento dell'informatica è l'unico percorso affidabile.
+Sekarang, jumlah orang yang masuk ke industri kita meningkat cepat, sedangkan jumlah lulusan informatika cenderung stabil. Hal ini menyebabkan tipe 2 engineers banyak dan mengurangi kesempatan mereka untuk mendapatkan pekerjaan dan menutup kesempatan mereka untuk menempuh karir yang lebih menantang. Terlepas anda ingin menjadi software engineer tipe 1 atau hanya menjaga karir anda, hanya dengan belajar dasar informatika anda dapat mencapainya.
 
 [![](https://teachyourselfcs.com/bilotta-tweet.png)](https://twitter.com/jenna/status/838161631662092289)
 
-Guida agli argomenti
+Panduan Belajar
 ---------------
 
-### Programmazione
+### Pemrograman
 
-La maggior parte dei programmi di Informatica universitari inizia con una "introduzione" alla programmazione. Le migliori versioni di questi corsi si rivolgono non solo ai principianti, ma anche a coloro che hanno tralasciato concetti e modelli di programmazione utili mentre imparavano a programmare per la prima volta.
+Kebanyakan mahasiswa informatika akan belajar dengan pengenalan pemrograman komputer. 
 
 La nostra raccomandazione standard per questo contenuto è la classica *Structure and Interpretation of Computer Programs*, disponibile online gratuitamente sia come [un libro](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html), che come un insieme di [videolezioni del MIT](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/). Sebbene queste lezioni siano fantastiche, il nostro suggerimento video è in realtà [le lezioni SICP di Brian Harvey](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter) (per il corso 61A a Berkeley). Questi sono più sofisticati e meglio mirati ai nuovi studenti rispetto alle lezioni del MIT.
 
