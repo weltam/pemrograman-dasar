@@ -78,50 +78,50 @@ Akhirnya, perlu ditekankan: panduan ini TIDAK di buat untuk orang yang sama seka
 
 ### Arsitektur Komputer
 
-Arsitektur Komputer
+Arsitektur Komputer - kadang disebut "sistem komputer" atau "organisasi komputer" - merupakan sudut pandang informatika dibawah level dari bagaimana software bekerja. Menurut pengalaman kami, hal ini bagian yang paling sering dilewatkan oleh software engineer yang belajar otodidak atau lulusan dari pelatihan. 
 
-L'architettura del computer—a volte chiamata "sistemi informatici" o "organizzazione computazionale"—è un importante primo sguardo all'informatica sotto la superficie del software. Nella nostra esperienza, è l'area più trascurata tra gli ingegneri del software autodidatti.
+Buku favourite kami adalah *[Computer Systems: A Programmer's Perspective](http://csapp.cs.cmu.edu/3e/home.html)*, dan kebanyakan kuliah pengantar arsitektur komputer menggunakan buku ini [mencakup](http://csapp.cs.cmu.edu/3e/courses.html) bab 1 s/d 6
 
-Il nostro libro introduttivo preferito è *[Computer Systems: A Programmer's Perspective](http://csapp.cs.cmu.edu/3e/home.html)* e una tipica introduzione all'architettura dei computer che utilizza il libro [coprirebbe](http://csapp.cs.cmu.edu/3e/courses.html) la maggior parte dei capitoli 1-6.
+Kami suka CS:APP untuk pendekatan praktikal dan berorientasi pada programming. Meskipun masih banyak hal lain mengenai arsitektur komputer selain dari yang ada di buku itu, tapi tetap saja buku tersebut cukup baik untuk pijakan awal bagi orang yang ingin memahami arsitektur komputer agar dapat menulis software yang cepat dan efisien serta reliable. 
 
-Adoriamo CS:APP per l'approccio pratico e orientato ai programmatori. Sebbene ci sia molto di più nell'architettura dei computer rispetto a ciò che è trattato nel libro, serve come un ottimo punto di partenza per coloro che desiderano comprendere i sistemi informatici principalmente per scrivere *software* più veloce, più efficiente e più affidabile.
+Untuk orang yang lebih memilih pendekatan yang lebih ringan untuk topik ini dan juga pendekatan terhadap hardware dan software secara seimbang, kami menyarankan **The Elements of Computing Systems** dikenal juga dengan **Nand2Tetris**. Buku ini cukup dalam untuk menjelaskan secara lengkap tentang pemahaman mengenai bagaimana semua hal di dalam komputer bekerja. Untuk setiap bab anda akan membangun bagian-bagian kecil dari keseluruhan sistem, dari menulis gerbang logika di HDL, sampai ke CPU dan juga assembler, sampai ke level software yaitu game Tetris. 
 
-Per coloro che preferiscono sia un'introduzione più leggera all'argomento sia un equilibrio tra problemi hardware e software, suggeriamo *Gli elementi dei sistemi informatici*, noto anche come "Nand2Tetris". Questo è un libro ambizioso che cerca di darti una comprensione coerente di come tutto funzioni in un computer. Ogni capitolo prevede la costruzione di una piccola parte del sistema complessivo, dalla scrittura di porte logiche elementari in HDL, attraverso una CPU e un assemblatore, fino a un'applicazione delle dimensioni di un gioco di Tetris.
+Kami merekomendasikan membaca semua 6 bab pertama dan menyelesaikan projectnya. Dengan demikian pemahaman anda akan terbentuk mengenai hubungan arsitektur mesin dan juga software yang berjalan di atasnya.
 
-Consigliamo di leggere i primi sei capitoli del libro e di completare i progetti associati. Questo svilupperà la tua comprensione della relazione tra l'architettura della macchina e il software che gira su di essa.
+Setengah bagian pertama dari buku dan semua projectnya tersedia di website [Nand2Tetris](http://www.nand2tetris.org/). Juga tersedia sebagai kuliah di [Coursera dengan konten video](https://www.coursera.org/learn/build-a-computer)
 
-La prima metà del libro (e tutti i suoi progetti) sono disponibili gratuitamente sul [sito web di Nand2Tetris] (http://www.nand2tetris.org/). È anche disponibile [un corso Coursera con video di accompagnamento](https://www.coursera.org/learn/build-a-computer).
+Dengan mengutamakan materi yang dibuat sederhana tapi lengkap, Nand2Tetris tidak terlalu dalam. Terutama mengenai 2 konsep yang paling penting di dalam arsitektur komputer yaitu pipelinein dan hirarki memory, keduanya tidak ada pada buku tersebut.
 
-Nella ricerca della semplicità e della coesione, Nand2Tetris rinuncia alla profondità. In particolare, due concetti molto importanti nelle moderne architetture dei computer sono il pipelining e la gerarchia della memoria, ma entrambi sono per lo più assenti dal testo.
-
-Una volta che ti senti a tuo agio con il contenuto di Nand2Tetris, ti suggeriamo di tornare a CS:APP o di prendere in considerazione *[Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269)* di Patterson e Hennessy, un ottimo testo ormai classico. Non tutte le sezioni del libro sono essenziali; suggeriamo di seguire il [corso CS61C](http://inst.eecs.berkeley.edu/~cs61c/sp15/) di Berkeley "Great Ideas in Computer Architecture" per letture specifiche. Le dispense e i laboratori sono disponibili online e le lezioni passate sono [su Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_).
+Setelah anda paham dengan konten dari Nand2Tetris, kami berharap anda melanjutkan kembali dengan CS:APP atau mencoba buku dari Patterson dan Hennessy *[Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269)* yang merupakan buku klasik yang sangat bagus. Tidak semua bab buku tersebut merupakan bagian esensial, akmi menyarankan mengikuti [kursus CS61C]((http://inst.eecs.berkeley.edu/~cs61c/sp15/)) dari Berkeley "Great Ideas in Computer Architecture" untuk bacaan khusus. Catatan perkuliahan dan juga praktikum tersedia online, dan kuliah versi sebelum ada di [Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_).
 
 [![Computer Systems: A Programmer's Perspective](https://teachyourselfcs.com/csapp.jpg)](http://csapp.cs.cmu.edu/3e/home.html)
 
-> L'hardware è la piattaforma
+> Hardware adalah platform
 
 *-- Mike Acton, Engine Director presso Insomniac Games\
-([guarda il suo discorso al CppCon](https://www.youtube.com/watch?v=rX0ItVEVjHc))*
+([Tonton presentasinya](https://www.youtube.com/watch?v=rX0ItVEVjHc))*
 
-### Algoritmi e Strutture Dati
+### Algoritma dan Struktur Data
 
-Siamo d'accordo con decenni di saggezza comune che la familiarità con algoritmi e strutture dati comuni è uno degli aspetti più abilitanti di un'educazione informatica. Questo è anche un ottimo posto per allenare le proprie capacità generali di risoluzione dei problemi, che ripagheranno in ogni altra area di studio.
+Kami setuju bahwa pengetahuan terhadap algoritma dan struktur data standard merupakan salah satu inti penting dari semua pengajaan informatika. Topik ini merupakan cara yang paling ampuh untuk melatih kemampuan problem solving, yang akan sangat dibutuhkan disetiap bagian dari bidang studi apapun.
 
-Ci sono centinaia di libri disponibili, ma il nostro preferito è *[The Algorithm Design Manual](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/)* di Steven Skiena. Ama chiaramente la risoluzione dei problemi algoritmica e in genere riesce a promuovere un entusiasmo simile tra i suoi studenti e lettori. A nostro avviso, i due testi suggeriti più comunemente (CLRS e Sedgewick) tendono ad essere un po' troppo densi di prove per coloro che imparano il materiale principalmente per aiutare con la risoluzione pratica dei problemi.
+Banyak sekali buku yang tersedia, tapi favorit kami adalah *[The Algorithm Design Manual](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/)* dari Steven Skiena. Steven jelas sangat menyukai problem solving dan dapat menularkan antusiasme nya kepada mahasiswanya dan juga pembacanya. Menurut kami, dua buku lain yang sering di sarankan (CLRS dan Sedgewick) terlalu fokus pada pembuktian secara matematis untuk orang yang hanya ingin belajar tentang praktek pemecahan masalah. 
 
-Per coloro che preferiscono le videoconferenze, [Skiena offre generosamente i suoi online](https://www3.cs.stonybrook.edu/~skiena/373/videos/). Ci piace molto anche il corso di Tim Roughgarden, disponibile [su Coursera](https://www.coursera.org/specializations/algorithms) e [altrove](http://timroughgarden.org/videos.html). Se preferisci lo stile di lezione di Skiena o di Roughgarden sarà una questione di preferenze personali. In effetti, ci sono dozzine di buone alternative, quindi se ti capita di trovarne un'altra che ti piace, ti incoraggiamo a seguirla!
+Untuk orang yang lebih suka menonton video [Skiena berbaik hati memberikan kuliahnya secara online](https://www3.cs.stonybrook.edu/~skiena/373/videos/). Kami juga sangat menyukai kuliah dari Tim Roughgarden yang tersedia di [Coursera](https://www.coursera.org/specializations/algorithms) [wesbitenya](http://timroughgarden.org/videos.html). Pemilihan pendekatan mengajar yang anda suka apakah itu dari dari Skiena ataupun Roughgarden, hal itu tergantung pada pilihan anda.
 
-Per la pratica, il nostro approccio preferito è che gli studenti risolvano i problemi su [Leetcode](https://leetcode.com/). Questi tendono ad essere problemi interessanti con soluzioni e discussioni di accompagnamento rispettabili. Ti aiutano anche a testare i progressi rispetto alle domande comunemente utilizzate nei colloqui tecnici presso le società di software più competitive. Ti suggeriamo di risolvere circa 100 problemi di leetcode casuali come parte dei tuoi studi.
 
-Infine, consigliamo vivamente *[How to Solve It](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)* come guida eccellente e unica per la risoluzione dei problemi generali; è applicabile all'informatica quanto alla matematica.
+Untuk latihan, kami menyarankan mengerjakan soal di [Leetcode](https://leetcode.com/). Problem solving di leetcode cukup menantang dan mempunyai penjelasan solusi dan diskusi yang membantu. Hal ini juga membantu mempersiapkan anda untuk mengerjakan soal yang sering digunakan pada interview teknikal di perusahaan besar dalam bidang software. Kami sarankan untuk menyelesaikan 100 soal di leetcode secara random sebagai latihan pada pembelajaran ini. 
+
+
+Terakhir, kami sangat menyarankan *[How to Solve It](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)* sebagai panduan yang unik dan bagus untuk pendekatan menyelesaikan permasalahan; cocok digunakan untuk informatika selain matematika.
 
 [![The Algorithm Design Manual](https://teachyourselfcs.com/skiena.jpg)](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/) [![How to Solve It](https://teachyourselfcs.com/polya.jpg)](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)
 
-> Ho solo un metodo che consiglio ampiamente—si chiama pensa prima di scrivere.
+> Aku hanya punya satu cara yang selalu kurekomendasikan - berpikir sebelum menulis. 
 
 *— Richard Hamming*
 
-### Matematica per l'Informatica
+### Matematika Informatika
 
 In un certo senso, l'informatica è un ramo troppo cresciuto della matematica applicata. Sebbene molti ingegneri del software provino—e in vari gradi ci riescano—a ignorarlo, ti incoraggiamo ad abbracciarlo con lo studio diretto. Farlo con successo ti darà un enorme vantaggio competitivo rispetto a coloro che non lo fanno.
 
