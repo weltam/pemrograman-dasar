@@ -1,4 +1,4 @@
-Teach Yourself Computer Science
+Belajar Informatika secara Otodidak
 =======================
 
 > Artikel ini adalah terjemahan bahasa indonesia dari [TeachYourselfCS](https://teachyourselfcs.com), ditulis oleh [Ozan Onay](https://twitter.com/oznova_) dan [Myles Byrne](https://twitter.com/quackingduck).
