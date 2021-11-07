@@ -123,21 +123,24 @@ Terakhir, kami sangat menyarankan *[How to Solve It](https://smile.amazon.com/Ho
 
 ### Matematika Informatika
 
-In un certo senso, l'informatica è un ramo troppo cresciuto della matematica applicata. Sebbene molti ingegneri del software provino—e in vari gradi ci riescano—a ignorarlo, ti incoraggiamo ad abbracciarlo con lo studio diretto. Farlo con successo ti darà un enorme vantaggio competitivo rispetto a coloro che non lo fanno.
+Pada dasarnya, informatika lahir dari cabang matematika aplikasi. Meskipun banyak software engineer mencoba(ada yang sukses) menghindari topik ini, kami menganjurkan untuk tetap dipelajari. Jika anda sukses maka skill tersebut akan memberikan nilai jual tinggi dalam berkompetisi dengan orang yang tidak belajar matematika. 
 
-L'area più rilevante della matematica per l'Informatica è generalmente chiamata "matematica discreta", dove "discreta" è l'opposto di "continuo" ed è vagamente una raccolta di interessanti argomenti di matematica applicata al di fuori del calcolo. Data la definizione vaga, non ha senso cercare di coprire l'intera ampiezza della "matematica discreta". Un obiettivo più realistico è quello di costruire una comprensione pratica di logica, combinatoria e probabilità, teoria degli insiemi, teoria dei grafi e un po' della teoria dei numeri relativa alla crittografia. L'algebra lineare è un'ulteriore area di studio utile, data la sua importanza nella computer grafica e nell'apprendimento automatico.
+Matematika yang paling relevan dengan informatika adalah "Matematika Diskret", dimana "diskret" merupakan lawan kata dari "continuous". Matematika Diskret merupakan kumpulan topik dari matematika yang tidak dicakup di dalam kalkulus. Tentu saja definis yang ambigu tidak mengharuskan anda mempelajari semua cabang dari "matematika diskret". Target yang realistis adalah membangun pemahaman terhaedap logika, kominatorik/probability, teori himpunan, teori graf dan sedikit teori bilangan yang digunakan dalam kriptografi. Aljabar Linear adalah satu tambahan yang penting juga dipelajari, karena sangat dibutuhkan pada machine learning. 
 
-Il nostro punto di partenza suggerito per la matematica discreta è l'insieme di [appunti delle lezioni di László Lovász](http://www.cs.elte.hu/~lovasz/dmbook.ps). Il professor Lovász ha fatto un buon lavoro nel rendere il contenuto accessibile e intuitivo, quindi questo serve come punto di partenza migliore rispetto a testi più formali.
 
-Per una trattazione più avanzata, suggeriamo *[Mathematics for Computer Science](https://web.archive.org/web/20210504123148/https://courses.csail.mit.edu/6.042/spring17/mcs.pdf)*, gli appunti delle lezioni dell'omonimo corso MIT. Anche le videolezioni di quel corso sono [disponibili gratuitamente](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/), e sono le nostre videoconferenze consigliate per la matematica discreta.
 
-Per l'algebra lineare, suggeriamo di iniziare con la serie di video [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), seguita dal [libro](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) di Gilbert Strang e le sue [video lezioni](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/).
 
-> Se le persone non credono che la matematica sia semplice, è solo perché non si rendono conto di quanto sia complicata la vita.
+Saran kami adalah mulailah belajar dari [catatan kuliah dari László Lovász](http://www.cs.elte.hu/~lovasz/dmbook.ps). Professor Lovász dengan sangat baik membuat materi menjadi mudah dipahami dan intuitif, sehingga cocok digunakan untuk awal dibanding dengan buku formal.
+
+Untuk pendalaman, kami menyarankan *[Mathematics for Computer Science](https://web.archive.org/web/20210504123148/https://courses.csail.mit.edu/6.042/spring17/mcs.pdf)*, buku yang dibuat dari catatan kuiah dari MIT. Video dari kuliah tersebut [gratis dibagikan](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/), dan juga kami rekomendasikan untuk belajar matematika diskret.
+
+Untuk aljabar linear, kami menyarankan mulai belajar dari video kuliah dari [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), disambung dengan [buku](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) karya Gilbert dan [video kuliahnya](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/).
+
+> Jika orang tidak percaya bahwa matematika itu sederhana, hanya karnea mereka tidak sadar betapa rumit hidup ini. 
 
 *— John von Neumann*
 
-### Sistemi Operativi
+### Sistem Operasi
 
 *[Operating System Concepts](https://www.amazon.com/dp/1118063333/)* (il "libro dei Dinosauri") e *[Modern Operating Systems](https://www.amazon.com/dp/013359162X/)* sono i libri "classici" sui sistemi operativi. Entrambi hanno attirato critiche per la loro mancanza di chiarezza e la generale ostilità verso gli studenti.
 
