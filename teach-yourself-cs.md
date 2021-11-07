@@ -15,7 +15,7 @@ Banyak sekali sumber belajar di internet tapi tidak semua sama baiknya. Anda tid
 
 Panduan ini merupakan respon kami terhadap pertanyaan diatas. 
 
-TL;DR (Riassunto):
+TL;DR:
 ------------------
 
 Pelajari keseluruhan 9 bidang berikut, secara berurutan, dengan menggunakan textbook ataupun video seri, lebih baik keduanya. Targetkan 100-200 jam untuk mempelajari setiap topik, dan review berulang sepanjang karir anda.
