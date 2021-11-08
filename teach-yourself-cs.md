@@ -1,4 +1,5 @@
 Belajar Informatika secara Otodidak
+
 =======================
 
 > Artikel ini adalah terjemahan bahasa indonesia dari [TeachYourselfCS](https://teachyourselfcs.com), ditulis oleh [Ozan Onay](https://twitter.com/oznova_) dan [Myles Byrne](https://twitter.com/quackingduck).
@@ -27,7 +28,7 @@ Pelajari keseluruhan 9 bidang berikut, secara berurutan, dengan menggunakan text
 | **[Algoritma dan Struktur Data](#algoritma-dan-struktur-data)** | Jika anda tidak mengetahui struktur data standar seperti tumpukan, antrian, pohon, dan graf, anda tidak akan bisa menyelesaikan masalah yang lebih menantang. | *The Algorithm Design Manual* | Le lezioni di Steven Skiena |
 | **[Matematika Informatika](#matematika-informatika)** | Informatika pada dasarnya merupakan cabang dari ilmu matematika aplikatif, sehingga dengan mempelajari matematika anda akan mendapatkan keuntungan yang kompetitif. | *Mathematics for Computer Science* | MIT 6.042J di Tom Leighton |
 | **[Sistem Operasi](#sistem-operasi)** | Mayoritas kode yang kita tulis akan dijalankan oleh sistem operasi, sehingga anda harus tahu bagaimana interaksinya. | *Operating Systems: Three Easy Pieces* | Berkeley CS 162 |
-| **[Jarigan Komputer](#jaringan-komputer)** | Internet merupakan hal yang sangat signifikan, pelajari cara kerjanya untuk maksimalkan potensinya. | *Computer Networking: A Top-Down Approach* | Stanford CS 144 |
+| **[Jaringan Komputer](#jaringan-komputer)** | Internet merupakan hal yang sangat signifikan, pelajari cara kerjanya untuk maksimalkan potensinya. | *Computer Networking: A Top-Down Approach* | Stanford CS 144 |
 | **[Basis Data](#basis-data)** | Data adalah bagian utama dari program yang cukup signifikan tapi hanya sedikit yang paham mengenai bagaimana sebenarnya cara kerja basis data tersebut. | *Readings in Database Systems* | Berkeley CS 186 di Joe Hellerstein |
 | **[Bahasa dan Kompilator](#bahasa-kompilator)** | Jika anda mengetahui bagaimana bahasa pemrograman dan cara kompiler bekerja, maka anda dapat menulis kode yang lebih baik dan mudah mempelajari bahasa baru. | *Crafting Interpreters* | Il corso di Alex Aiken su edX |
 | **[Sistem Terdistribusi](#sistem-terdistribusi)** | Semua sistem pada jaman sekarang merupakan sistem terdistribusi. | *Designing Data-Intensive Applications* di Martin Kleppmann | MIT 6.824 |
@@ -136,23 +137,23 @@ Untuk pendalaman, kami menyarankan *[Mathematics for Computer Science](https://w
 
 Untuk aljabar linear, kami menyarankan mulai belajar dari video kuliah dari [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), disambung dengan [buku](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) karya Gilbert dan [video kuliahnya](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/).
 
-> Jika orang tidak percaya bahwa matematika itu sederhana, hanya karnea mereka tidak sadar betapa rumit hidup ini. 
+> Jika orang tidak percaya bahwa matematika itu sederhana, hanya karena mereka tidak sadar betapa rumit hidup ini. 
 
 *— John von Neumann*
 
 ### Sistem Operasi
 
-*[Operating System Concepts](https://www.amazon.com/dp/1118063333/)* (il "libro dei Dinosauri") e *[Modern Operating Systems](https://www.amazon.com/dp/013359162X/)* sono i libri "classici" sui sistemi operativi. Entrambi hanno attirato critiche per la loro mancanza di chiarezza e la generale ostilità verso gli studenti.
+*[Operating System Concepts](https://www.amazon.com/dp/1118063333/)* ("buku dinosaurus") e *[Modern Operating Systems](https://www.amazon.com/dp/013359162X/)* merupakan buku "klasik" sistem operasi. Keduanya di kritik karena dianggap berat, kurang jelas dan tidak mudah dipahami mahasisw.
 
-*Operating Systems: Three Easy Pieces* è una buona alternativa [disponibile gratuitamente online](http://pages.cs.wisc.edu/~remzi/OSTEP/). Ci piace particolarmente la struttura e la leggibilità del libro e riteniamo che gli esercizi valgano la pena.
+*Operating Systems: Three Easy Pieces* merupakan alternatif bagus [tersedia gratis online](http://pages.cs.wisc.edu/~remzi/OSTEP/). Kami menyukai struktur dan mudah dipahami dan merasa bahwa latihan yang ada cukup bermanfaat untuk dikerjakan.
 
-Dopo OSTEP, ti invitiamo a esplorare le decisioni di progettazione di sistemi operativi specifici, attraverso libri in stile "Parti interne di {Nome Sistema Operativo}" come *[Lions' Commentary on Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)*, *[The Design and Implementation of the FreeBSD Operating System](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)* e *[MAC OS X Internals](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)*. Per Linux, suggeriamo il fantastico [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468) di Robert Love.
+Setelah OSTEP, kami menyarankan untuk mendalami tentang desain dari sistem operasi, dengan buku yang berbau "OS internals" , seperti  *[Lions' Commentary on Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)*, *[The Design and Implementation of the FreeBSD Operating System](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)* dan *[MAC OS X Internals](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)*. Untuk Linux, kami sarankan yang sangat baik [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468) di Robert Love.
 
-Un ottimo modo per consolidare la tua comprensione dei sistemi operativi è leggere il codice di un piccolo kernel e aggiungere funzionalità. Una scelta è [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html), una trasposizione di Unix V6 su ANSI C e x86, mantenuto per un corso al MIT. OSTEP ha un'appendice di potenziali [laboratori xv6](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf) piena di grandi idee per potenziali progetti.
+Cara terbaik untuk menguatkan pemahaman dari sistem oeprasi adalah dengan membaca kode dari kernel sistem operasi yang kecil. Salah satunya adalah [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html), porting dari Unix V6 ke ANSI C dan x86, yang dibuat untuk kuliah MIT. OSTEP mempunyai appendix [praktikum xv6](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf) yang penuh dengan ide yang sangat bagus untuk pengembangan project berikutnya.
 
 [![Operating Systems: Three Easy Pieces](https://teachyourselfcs.com/ostep.jpeg)](http://pages.cs.wisc.edu/~remzi/OSTEP/)
 
-### Reti di Computer
+### Jaringan Komputer
 
 Dato che gran parte dell'ingegneria del software si trova su server e client Web, una delle aree di maggior valore dell'informatica è il networking. I nostri studenti autodidatti che studiano metodicamente il networking scoprono di comprendere finalmente termini, concetti e protocolli da cui erano stati circondati per anni.
 
