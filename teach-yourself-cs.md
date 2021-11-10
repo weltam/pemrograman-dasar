@@ -153,13 +153,13 @@ Cara terbaik untuk menguatkan pemahaman dari sistem oeprasi adalah dengan membac
 
 ### Jaringan Komputer
 
-Dato che gran parte dell'ingegneria del software si trova su server e client Web, una delle aree di maggior valore dell'informatica è il networking. I nostri studenti autodidatti che studiano metodicamente il networking scoprono di comprendere finalmente termini, concetti e protocolli da cui erano stati circondati per anni.
+Karena kebanyakan software engineering berhubungan dengan web server dan clilent, salah satu bidang informatika yang jelas terlihat langsung manfaatnya adalah jaringan komputer. Siswa kami yang belajar otodidak, dengan mempelajari konsep networking dengan benar akhirnya memahami terminology, konsep dan protokol yang selama ini ada disekeliling mereka. 
 
-Il nostro libro preferito sull'argomento è *[Computer Networking: A Top-Down Approach](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)*. Vale la pena fare i piccoli progetti ed esercizi nel libro, e ci piacciono particolarmente i "Laboratori di Wireshark", che hanno [fornito generosamente online](http://www-net.cs.umass.edu/wireshark-labs/).
+Buku favorite kami adalah *[Computer Networking: A Top-Down Approach](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)*. Projek kecil dan latihan yang ada di buku tersebut sangat bermanfaat untuk dikerjakan, terlebih bagian "Wireshark Labs" yang paling kami sukai. Mereka memberikan nya [online](http://www-net.cs.umass.edu/wireshark-labs/).
 
-Per coloro che preferiscono le lezioni video, suggeriamo il *[Introduction to Computer Networking](https://www.youtube.com/playlist?list=PLvFG2xYBrYAQCyz4Wx3NPoYJOFjvU7g2Z)* di Stanford precedentemente disponibile tramite la piattaforma MOOC di Stanford Lagunita, ma purtroppo ora disponibile solo come playlist non ufficiali su Youtube.
+Untuk yang lebih memilih rekaman kuliah, kami menyarankan buku dari Standford dengan judul *[Introduction to Computer Networking](https://www.youtube.com/playlist?list=PLvFG2xYBrYAQCyz4Wx3NPoYJOFjvU7g2Z)* dulu tersedia di Stanford MOOC Lagunita tapi sekarang tersedia di youtube sebagai playlist tidak resmi. 
 
-> Non puoi guardare nella sfera di cristallo e vedere il futuro. Ciò che Internet diverrà nel futuro sarà plasmato dalla società.
+> Kamu tidak bisa melihat bola kristal dan melihat masa depan. Masa depan internet ditentukan oleh pembuatnya.
 
 *— Bob Kahn*
 
